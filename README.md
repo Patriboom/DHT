@@ -55,7 +55,7 @@ Le présent dépôt inclut les fichiers modidfiés du dépôt Adafruit_unified_s
 # Contributing
 
 Contributions are welcome!  Not only you’ll encourage the development of the library, but you’ll also learn how to best use the library and probably some C++ too
-Please contribute to main project [https://github.com/adafruit/DHT-sensor-library/actions]( Adafruit ) and notice me about the needs of modifications here.
+Please contribute to main project [Adafruit](https://github.com/adafruit/DHT-sensor-library/actions) and notice me about the needs of modifications here.
 
 Please read our [Code of Conduct](https://github.com/adafruit/DHT-sensor-library/blob/master/CODE_OF_CONDUCT.md>)
 before contributing to help this project stay welcoming.
