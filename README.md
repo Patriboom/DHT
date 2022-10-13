@@ -13,11 +13,31 @@ The variable sensor_t seams to be in every code.
 That said, the following code provides a run around this problem, mostly when you want to connect new and old component all together onto a single project.
 The following repository, also, includes the universal « Adafruit_sensor » file - renamed « Adafruit_sensorDHT » to make sure you have everything ready & easy to install.
 
+This repository tends to avoid:
+- 'error sensor_t' is all ready defined
+- 'sensor_t' has not been declared
+- 'AdafruitDHT_Sensor' has not been declared
+- 'Adafruit_Sensor' already exists
+- You can not redclare 'Adafruit_Sensor'
+- 'AdafruitDHT_sensor_t' was not declared in this scope
+- 'sensor' was not declared in this scope
+- 'getSensor' was not declared in this scope
+
 ## Pourquoi encore un dépôt git pour DHT ? 
 Trop souvent, les pilotes Adafruit utilisent les mêmes noms de variable et d'objet. Cela entraîne des conflit et des erreurs de compilation sous Arduino.
 La variable passe-partout « sensor_t » utliisée dans les pilotes adafruit est changée ici à la faveur d'un nom unique « AdafruitDHT_sensor_t » de façon à éliminer ces conflits.
 Vous trouverez donc ici un code, non pas amélioré, mais seulement modifié de façon à contourner ce problème de répétition.
 De plus, le présent dépôt vous offre une version adaptée du pilote « Adafruit_sensor », renommé « Adafruit_sensorDHT » afin de vous assurer une installation facile et performante du premier coup.
+
+Le présent dépôt devrait régler les problèmes suivants (selon les expressions originales anglaises de Arduino)
+- 'error sensor_t' is all ready defined
+- 'sensor_t' has not been declared
+- 'AdafruitDHT_Sensor' has not been declared
+- 'Adafruit_Sensor' already exists
+- You can not redclare 'Adafruit_Sensor'
+- 'AdafruitDHT_sensor_t' was not declared in this scope
+- 'sensor' was not declared in this scope
+- 'getSensor' was not declared in this scope
 
 
 # Dependencies
