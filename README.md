@@ -6,6 +6,9 @@ An Arduino library for the DHT series of low-cost temperature/humidity sensors.
 
 You can find DHT tutorials [here](https://learn.adafruit.com/dht).
 
+Suitable for:  DHT11 / DHT12 / DHT21 / DHT22
+
+
 ## What the difference here ? 
 
 Too often, the DHT driver has conflict with other Adafruit component's driver.
