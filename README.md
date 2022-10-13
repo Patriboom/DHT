@@ -40,7 +40,13 @@ Le présent dépôt devrait régler les problèmes suivants (selon les expressio
 - 'getSensor' was not declared in this scope
 
 
-# Dependencies
+# Dependencies (optional)
+As the Adafruit_universal driver is included in this deposite, you'd better use the one you find here.  Still, the original is ...
+ * [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
+
+
+# Dependances (facultatives)
+Le présent dépôt inclut les fichiers modidfiés du dépôt Adafruit_unified_sensor.  Néanmoins, si vous souhaitez accéder aux fichiers originaux ...
  * [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
 
 # Contributing
