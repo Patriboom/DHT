@@ -6,6 +6,20 @@ An Arduino library for the DHT series of low-cost temperature/humidity sensors.
 
 You can find DHT tutorials [here](https://learn.adafruit.com/dht).
 
+## What the difference here ? 
+
+Too often, the DHT driver has conflict with other Adafruit component's driver.
+The variable sensor_t seams to be in every code.
+That said, the following code provides a run around this problem, mostly when you want to connect new and old component all together onto a single project.
+The following repository, also, includes the universal « Adafruit_sensor » file - renamed « Adafruit_sensorDHT » to make sure you have everything ready & easy to install.
+
+## Pourquoi encore un dépôt git pour DHT ? 
+Trop souvent, les pilotes Adafruit utilisent les mêmes noms de variable et d'objet. Cela entraîne des conflit et des erreurs de compilation sous Arduino.
+La variable passe-partout « sensor_t » utliisée dans les pilotes adafruit est changée ici à la faveur d'un nom unique « AdafruitDHT_sensor_t » de façon à éliminer ces conflits.
+Vous trouverez donc ici un code, non pas amélioré, mais seulement modifié de façon à contourner ce problème de répétition.
+De plus, le présent dépôt vous offre une version adaptée du pilote « Adafruit_sensor », renommé « Adafruit_sensorDHT » afin de vous assurer une installation facile et performante du premier coup.
+
+
 # Dependencies
  * [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
 
